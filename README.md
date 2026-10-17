@@ -41,7 +41,7 @@ Open Command Prompt or Terminal in that folder (or specify the full file path), 
 adb connect <FIRE_TV_IP>:5555
 adb install FireTV-Screen-Resizer-v1.1.apk
 ```
-*(Tip on Windows: you can also type `adb install ` and drag & drop the downloaded `.apk` file into the command prompt window).*
+*(Tip for Windows & Mac: you can also type `adb install ` and drag & drop the downloaded `.apk` file directly into your terminal window).*
 
 ### 2. Grant Required Permission
 ```bash
