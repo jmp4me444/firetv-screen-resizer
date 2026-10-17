@@ -3,6 +3,7 @@
 [![Topic: amazon-fire-tv](https://img.shields.io/badge/topic-amazon--fire--tv-orange.svg)](https://github.com/topics/amazon-fire-tv)
 [![Platform: Android TV / Fire OS](https://img.shields.io/badge/platform-Fire%20OS%20%7C%20Android%20TV-blue.svg)](https://developer.amazon.com/fire-tv)
 [![Root: Not Required](https://img.shields.io/badge/root-NO%20ROOT%20REQUIRED-brightgreen.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/jmp4me444/firetv-screen-resizer/total?color=blue&label=Downloads)](https://github.com/jmp4me444/firetv-screen-resizer/releases)
 
 > **NO ROOT REQUIRED!** Works on standard stock Amazon Fire TV devices via simple ADB permission.
 
