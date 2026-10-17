@@ -2,6 +2,9 @@
 
 [![Topic: amazon-fire-tv](https://img.shields.io/badge/topic-amazon--fire--tv-orange.svg)](https://github.com/topics/amazon-fire-tv)
 [![Platform: Android TV / Fire OS](https://img.shields.io/badge/platform-Fire%20OS%20%7C%20Android%20TV-blue.svg)](https://developer.amazon.com/fire-tv)
+[![Root: Not Required](https://img.shields.io/badge/root-NO%20ROOT%20REQUIRED-brightgreen.svg)](#)
+
+> **NO ROOT REQUIRED!** Works on standard stock Amazon Fire TV devices via simple ADB permission.
 
 A lightweight utility app designed specifically for **Amazon Fire TV** devices to adjust the display canvas on the fly. 
 
