@@ -34,10 +34,14 @@ Grab the latest compiled and signed APK from the [Releases](https://github.com/j
 Because this app adjusts the system-level window manager display size, Android requires granting the `WRITE_SECURE_SETTINGS` permission once via ADB.
 
 ### 1. Install the APK
+Download `FireTV-Screen-Resizer-v1.1.apk` to your PC (usually in your **Downloads** folder).
+
+Open Command Prompt or Terminal in that folder (or specify the full file path), then run:
 ```bash
 adb connect <FIRE_TV_IP>:5555
 adb install FireTV-Screen-Resizer-v1.1.apk
 ```
+*(Tip on Windows: you can also type `adb install ` and drag & drop the downloaded `.apk` file into the command prompt window).*
 
 ### 2. Grant Required Permission
 ```bash
