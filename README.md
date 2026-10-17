@@ -33,10 +33,19 @@ Grab the latest compiled and signed APK from the [Releases](https://github.com/j
 
 Because this app adjusts the system-level window manager display size, Android requires granting the `WRITE_SECURE_SETTINGS` permission once via ADB.
 
-### 1. Install the APK
-Download `FireTV-Screen-Resizer-v1.1.apk` to your PC (usually in your **Downloads** folder).
+### Option A: 1-Click Auto-Installer (Finds Fire TV IP Automatically!)
+If you don't know your Fire TV's IP address:
+1. Download `FireTV-Screen-Resizer-v1.1.apk` and the installer script for your OS into the same folder:
+   - **Windows:** Double-click [`install-windows.bat`](install-windows.bat)
+   - **macOS / Linux:** Run `bash install-mac.sh`
+2. The script will automatically scan your Wi-Fi/local network for devices with ADB port 5555 open, connect to your Fire TV, install the APK, and grant the permission automatically!
 
-Open Command Prompt or Terminal in that folder (or specify the full file path), then run:
+---
+
+### Option B: Manual ADB Installation
+If you prefer running the commands yourself:
+1. Find your Fire TV IP under: **Settings ➔ My Fire TV ➔ About ➔ Network**.
+2. Connect and install:
 ```bash
 adb connect <FIRE_TV_IP>:5555
 adb install FireTV-Screen-Resizer-v1.1.apk
